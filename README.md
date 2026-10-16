@@ -63,46 +63,61 @@ tool/exercise_catalog/  fontes e scripts do catálogo de exercícios (também us
 
 ## Como executar
 
-O aplicativo usa o [Supabase](https://supabase.com) como backend (autenticação e banco). O
-repositório traz tudo para rodar um Supabase **local**, já com dados fictícios.
+O aplicativo usa o [Supabase](https://supabase.com) como backend (autenticação e banco de dados).
+O projeto já vem configurado para um backend **hospedado**: basta ter o Flutter instalado, sem
+Docker, sem banco local e sem arquivos extras.
 
 ### Pré-requisitos
 
 - Flutter 3.47 ou superior (`flutter doctor`)
-- Docker Desktop em execução
-- Node.js (para usar a CLI do Supabase via `npx`)
+- Google Chrome (ou um emulador/dispositivo Android)
+- Conexão com a internet
 
 ### Passo a passo
-
-```bash
-npx supabase start
-```
 
 ```bash
 flutter pub get
 ```
 
 ```bash
+flutter run -d chrome
+```
+
+No aplicativo:
+
+1. Na tela de login, selecione **Instrutor**.
+2. Toque em **Criar conta**, preencha nome, e-mail, telefone e senha (mínimo de 8 caracteres) e
+   toque em **Cadastrar**. A conta é criada e o aplicativo abre direto no painel.
+3. A conta nova começa vazia: use **Alunos → Novo Aluno** para cadastrar alunos, monte fichas no
+   **Editor** e explore **Vendas**, **Marketing**, **Financeiro**, **Perfil** e **Sobre** pelo menu.
+
+Para sair, use **Mais → Ajustes → Sair da conta** e entre de novo com o e-mail e a senha
+cadastrados. Cada conta enxerga apenas os próprios dados (Row Level Security).
+
+### Alternativa: Supabase local com dados fictícios
+
+O vídeo de apresentação foi gravado com um Supabase local, que o repositório também traz
+(`supabase/`: migrações, Edge Functions e `seed.sql`). Exige Docker Desktop e Node.js.
+
+```bash
+npx supabase start
+```
+
+```bash
 flutter run -d chrome --dart-define-from-file=config/local.json
 ```
 
-Conta de demonstração criada pelo `supabase/seed.sql` (existe apenas no Supabase local):
+Conta de demonstração do `supabase/seed.sql` (existe apenas no Supabase local):
 
 - **E-mail:** `treinador@valex.local`
 - **Senha:** `Valex@2026`
 
-Na tela de login, selecione **Instrutor**. Também é possível criar uma nova conta pelo botão
-**Criar conta**. Os e-mails de recuperação de senha chegam na caixa local do Mailpit, em
-<http://127.0.0.1:54324>.
-
-Para voltar o banco ao estado inicial:
+Os e-mails de recuperação de senha chegam na caixa local do Mailpit, em
+<http://127.0.0.1:54324>. Para voltar o banco ao estado inicial:
 
 ```bash
 npx supabase db reset
 ```
-
-Sem `--dart-define-from-file` o app abre normalmente e mostra as validações das telas de
-autenticação, mas não consegue autenticar por não ter um backend configurado.
 
 ## Testes
 

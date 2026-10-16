@@ -19,14 +19,20 @@ class SupabaseConfig {
     }
   }
 
+  /// Backend hospedado usado quando nenhum `--dart-define` é informado.
+  /// A chave publicável é feita para o cliente; o acesso é protegido por RLS.
+  static const String _defaultUrl = 'https://xnyqgrzztkifkxuulnai.supabase.co';
+  static const String _defaultPublishableKey =
+      'sb_publishable_1oycxtJsc1zC9Lt4jTxDjg_TBbZlKZ4';
+
   static const String url = String.fromEnvironment(
     'SUPABASE_URL',
-    defaultValue: 'https://xyzcompany.supabase.co',
+    defaultValue: _defaultUrl,
   );
 
   static const String _legacyAnonKey = String.fromEnvironment(
     'SUPABASE_ANON_KEY',
-    defaultValue: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.dummy_anon_key',
+    defaultValue: _defaultPublishableKey,
   );
 
   static const String publishableKey = String.fromEnvironment(
