@@ -1,0 +1,762 @@
+[
+  {
+    "title": "Peck Deck",
+    "muscle": "Peito",
+    "cue": "Cotovelos a 90°, fechar o peitoral com contração máxima de 1s."
+  },
+  {
+    "title": "Supino Reto com Barra",
+    "muscle": "Peito",
+    "cue": "Pés firmes no chão, escápulas retraídas, descida controlada até o peitoral."
+  },
+  {
+    "title": "Supino Inclinado com Barra",
+    "muscle": "Peito",
+    "cue": "Banco a 30-45°, foco na porção clavicular do peitoral."
+  },
+  {
+    "title": "Supino Declinado com Barra",
+    "muscle": "Peito",
+    "cue": "Foco na porção inferior do peitoral, movimento cadenciado."
+  },
+  {
+    "title": "Supino Reto com Halteres",
+    "muscle": "Peito",
+    "cue": "Amplitude maior que a barra, descida controlada, cotovelos em 75°."
+  },
+  {
+    "title": "Supino Inclinado com Halteres",
+    "muscle": "Peito",
+    "cue": "Banco a 30°, halteres se encontram no topo com leve rotação."
+  },
+  {
+    "title": "Supino Declinado com Halteres",
+    "muscle": "Peito",
+    "cue": "Maior amplitude no peitoral inferior, manter ombros estabilizados."
+  },
+  {
+    "title": "Supino Articulado / Máquina",
+    "muscle": "Peito",
+    "cue": "Ajuste do banco na altura do peito, empurrar com força contraindo no final."
+  },
+  {
+    "title": "Supino Inclinado Articulado",
+    "muscle": "Peito",
+    "cue": "Foco na porção superior do peito com trajetória guiada e segura."
+  },
+  {
+    "title": "Crucifixo com Halteres",
+    "muscle": "Peito",
+    "cue": "Arco leve nos cotovelos, abertura ampla, sentir o alongamento no peitoral."
+  },
+  {
+    "title": "Crucifixo Inclinado com Halteres",
+    "muscle": "Peito",
+    "cue": "Banco a 30°, cotovelos levemente flexionados, alongamento no peito superior."
+  },
+  {
+    "title": "Cross Over (Polia Alta)",
+    "muscle": "Peito",
+    "cue": "Tronco levemente inclinado para frente, cruzar as mãos na finalização."
+  },
+  {
+    "title": "Cross Over (Polia Média)",
+    "muscle": "Peito",
+    "cue": "Braços abrem na linha dos ombros, convergindo ao centro no peito médio."
+  },
+  {
+    "title": "Cross Over (Polia Baixa)",
+    "muscle": "Peito",
+    "cue": "Foco na porção superior do peitoral, mãos cruzam acima do umbigo."
+  },
+  {
+    "title": "Crossover Inclinado na Polia",
+    "muscle": "Peito",
+    "cue": "Banco a 45° entre as polias baixas, excelente isolamento peitoral."
+  },
+  {
+    "title": "Flexão de Braço",
+    "muscle": "Peito",
+    "cue": "Corpo rígido, cotovelos a 45° do tronco, descer até o peito tocar o chão."
+  },
+  {
+    "title": "Flexão de Braço com Pés Elevados",
+    "muscle": "Peito",
+    "cue": "Pés no banco para intensificar o trabalho na porção superior do peito."
+  },
+  {
+    "title": "Mergulho entre Barras (Peito)",
+    "muscle": "Peito",
+    "cue": "Tronco inclinado à frente, cotovelos abrem para fora, foco no peitoral inferior."
+  },
+  {
+    "title": "Pullover com Haltere",
+    "muscle": "Peito",
+    "cue": "Deitado transversalmente no banco, expanção da caixa torácica."
+  },
+  {
+    "title": "Puxada Frontal na Máquina / Polia",
+    "muscle": "Costas",
+    "cue": "Puxar a barra em direção ao peitoral superior, fechando escápulas."
+  },
+  {
+    "title": "Puxada Frontal Pegada Supinada",
+    "muscle": "Costas",
+    "cue": "Palmas voltadas para você, maior ativação do grande dorsal e bíceps."
+  },
+  {
+    "title": "Puxada Fechada (Triângulo)",
+    "muscle": "Costas",
+    "cue": "Pegada neutra, puxar o triângulo em direção ao umbigo, retrair escápulas."
+  },
+  {
+    "title": "Puxada Articulada (Máquina)",
+    "muscle": "Costas",
+    "cue": "Puxada convergente guiada, espremer o dorsal no ponto mais baixo."
+  },
+  {
+    "title": "Pulldown na Polia com Corda",
+    "muscle": "Costas",
+    "cue": "Braços estendidos, puxar até a coxa focando no grande dorsal."
+  },
+  {
+    "title": "Pulldown na Polia com Barra Reta",
+    "muscle": "Costas",
+    "cue": "Tronco levemente inclinado, cotovelos semiflexionados, cotovelo guia o movimento."
+  },
+  {
+    "title": "Remada Baixa com Triângulo",
+    "muscle": "Costas",
+    "cue": "Tronco firme, puxar o triângulo direcionando os cotovelos ao quadril."
+  },
+  {
+    "title": "Remada Baixa com Barra Pegada Pronada",
+    "muscle": "Costas",
+    "cue": "Pegada aberta, puxar em direção ao abdômen com foco em miolo de costas."
+  },
+  {
+    "title": "Remada Curvada com Barra",
+    "muscle": "Costas",
+    "cue": "Coluna alinhada, tronco a 45°, barra sobe até o umbigo."
+  },
+  {
+    "title": "Remada Curvada com Halteres",
+    "muscle": "Costas",
+    "cue": "Coluna alinhada, puxada em direção ao quadril com rotação neutra."
+  },
+  {
+    "title": "Remada Cavalo (Barra T)",
+    "muscle": "Costas",
+    "cue": "Apoio no peitoral ou livre, focar na retração máxima das escápulas."
+  },
+  {
+    "title": "Remada Articulada Unilateral",
+    "muscle": "Costas",
+    "cue": "Trabalho unilateral para correção de assimetrias e contração intensa."
+  },
+  {
+    "title": "Remada Unilateral no Cabo",
+    "muscle": "Costas",
+    "cue": "Cotovelo conduz o movimento para trás, contração na posição final."
+  },
+  {
+    "title": "Serrote com Haltere",
+    "muscle": "Costas",
+    "cue": "Joelho e mão ipsilateral apoiados no banco, puxar o haltere até a cintura."
+  },
+  {
+    "title": "Barra Fixa (Pronada)",
+    "muscle": "Costas",
+    "cue": "Queixo ultrapassa a barra, descida completa e controlada."
+  },
+  {
+    "title": "Barra Fixa Supinada (Graviton)",
+    "muscle": "Costas",
+    "cue": "Com auxílio de carga no graviton ou livre, focando na bíceps e dorsal."
+  },
+  {
+    "title": "Levantamento Terra",
+    "muscle": "Costas",
+    "cue": "Coluna neutra, empurrar o chão com os pés, não dobrar o lombar."
+  },
+  {
+    "title": "Meio Terra (Rack Pull)",
+    "muscle": "Costas",
+    "cue": "Barra saindo da altura dos joelhos, foco na espessura de costas e trapézio."
+  },
+  {
+    "title": "Facepull na Polia",
+    "muscle": "Costas",
+    "cue": "Puxar a corda na altura da testa com rotação externa dos ombros."
+  },
+  {
+    "title": "Puxada Alta com Corda",
+    "muscle": "Costas",
+    "cue": "Puxar a corda para baixo dos ombros, abertura das pontas no final."
+  },
+  {
+    "title": "Hiperextensão Lombar (Banco 45°)",
+    "muscle": "Costas",
+    "cue": "Quadril apoiado no aparelho, elevar tronco até a linha do corpo."
+  },
+  {
+    "title": "Desenvolvimento com Halteres",
+    "muscle": "Ombro",
+    "cue": "Cotovelos a 90° no início, pressionar acima da cabeça sem bloquear."
+  },
+  {
+    "title": "Desenvolvimento na Máquina",
+    "muscle": "Ombro",
+    "cue": "Encosto firme, pressionar acima sem bloquear os cotovelos."
+  },
+  {
+    "title": "Desenvolvimento Militar com Barra",
+    "muscle": "Ombro",
+    "cue": "Barra desce até a linha do queixo, core contraído em pé."
+  },
+  {
+    "title": "Desenvolvimento Arnold com Halteres",
+    "muscle": "Ombro",
+    "cue": "Rotação dos punhos durante a subida, maior solicitação do deltoide anterior."
+  },
+  {
+    "title": "Elevação Lateral com Halteres",
+    "muscle": "Ombro",
+    "cue": "Cotovelos levemente flexionados, subir até a linha do ombro."
+  },
+  {
+    "title": "Elevação Lateral na Polia (Unilateral)",
+    "muscle": "Ombro",
+    "cue": "Polia do lado oposto, movimento limpo e tensão constante."
+  },
+  {
+    "title": "Elevação Lateral no Banco Inclinado",
+    "muscle": "Ombro",
+    "cue": "Deitado de lado no banco a 45°, foco no ponto inicial de alongamento."
+  },
+  {
+    "title": "Elevação Frontal com Halteres",
+    "muscle": "Ombro",
+    "cue": "Alternado ou simultâneo, até a linha do ombro."
+  },
+  {
+    "title": "Elevação Frontal com Barra",
+    "muscle": "Ombro",
+    "cue": "Pegada pronada, subir até a linha dos olhos com tronco estável."
+  },
+  {
+    "title": "Elevação Frontal na Polia com Corda",
+    "muscle": "Ombro",
+    "cue": "Corda entre as pernas, elevar até a linha dos olhos."
+  },
+  {
+    "title": "Remada Alta com Barra",
+    "muscle": "Ombro",
+    "cue": "Cotovelos sobem acima dos ombros, barra sobe até a linha do peito."
+  },
+  {
+    "title": "Remada Alta na Polia",
+    "muscle": "Ombro",
+    "cue": "Tensão constante na subida, focando deltoides laterais e trapézio."
+  },
+  {
+    "title": "Fly Inverso com Halteres",
+    "muscle": "Ombro",
+    "cue": "Tronco inclinado a 45°, foco no deltoide posterior, movimento cadenciado."
+  },
+  {
+    "title": "Fly Inverso na Polia Cruzada",
+    "muscle": "Ombro",
+    "cue": "Polias cruzadas na altura do peito, puxar para trás sem dobrar os cotovelos."
+  },
+  {
+    "title": "Fly Inverso na Máquina (Peck Deck Inverso)",
+    "muscle": "Ombro",
+    "cue": "Sentar de frente para o aparelho, pegada neutra, abertura controlada."
+  },
+  {
+    "title": "Crucifixo Inverso no Banco 45°",
+    "muscle": "Ombro",
+    "cue": "Peito apoiado no banco inclinado, elevação posterior isolada."
+  },
+  {
+    "title": "Encolhimento de Ombros com Barra (Trapézio)",
+    "muscle": "Ombro",
+    "cue": "Elevação vertical dos ombros em direção às orelhas sem rotacionar."
+  },
+  {
+    "title": "Encolhimento de Ombros com Halteres (Trapézio)",
+    "muscle": "Ombro",
+    "cue": "Halteres ao lado do corpo, pico de contração de 2s no topo."
+  },
+  {
+    "title": "Rosca Direta com Barra Reta / W",
+    "muscle": "Bíceps",
+    "cue": "Cotovelos fixos ao tronco, flexão completa com supinação."
+  },
+  {
+    "title": "Rosca Direta com Halteres",
+    "muscle": "Bíceps",
+    "cue": "Alternado ou simultâneo, supinar no topo da contração."
+  },
+  {
+    "title": "Rosca Alternada Inclinada no Banco",
+    "muscle": "Bíceps",
+    "cue": "Banco a 45°, cotovelos para trás, alongamento máximo da cabeça longa."
+  },
+  {
+    "title": "Rosca Scott com Barra W",
+    "muscle": "Bíceps",
+    "cue": "Apoio firme dos tríceps no banco, flexão controlada."
+  },
+  {
+    "title": "Rosca Scott com Haltere Unilateral",
+    "muscle": "Bíceps",
+    "cue": "Unilateral, apoio completo, contração máxima no topo."
+  },
+  {
+    "title": "Rosca Scott na Máquina",
+    "muscle": "Bíceps",
+    "cue": "Trajetória guiada com carga constante no pico de contração."
+  },
+  {
+    "title": "Rosca Concentrada com Haltere",
+    "muscle": "Bíceps",
+    "cue": "Cotovelo apoiado na coxa, flexão lenta com supinação completa."
+  },
+  {
+    "title": "Rosca na Polia Baixa (Barra Reta)",
+    "muscle": "Bíceps",
+    "cue": "Tensão constante do cabo, cotovelos colados ao corpo."
+  },
+  {
+    "title": "Rosca Martelo com Halteres",
+    "muscle": "Bíceps",
+    "cue": "Pegada neutra, sem supinação, foco no braquial e braquiorradial."
+  },
+  {
+    "title": "Rosca Martelo na Polia com Corda",
+    "muscle": "Bíceps",
+    "cue": "Puxar a corda mantendo punhos neutros até a altura dos ombros."
+  },
+  {
+    "title": "Rosca 21 com Barra",
+    "muscle": "Bíceps",
+    "cue": "7 repetições metade inferior + 7 metade superior + 7 completas."
+  },
+  {
+    "title": "Rosca Spider (Banco 45°)",
+    "muscle": "Bíceps",
+    "cue": "Peito apoiado no banco, braços pendurados para isolamento total."
+  },
+  {
+    "title": "Rosca Inversa com Barra (Antebraço)",
+    "muscle": "Bíceps",
+    "cue": "Pegada pronada (palmas para baixo), foco nos extensores do antebraço."
+  },
+  {
+    "title": "Rosca Punho com Barra (Flexores)",
+    "muscle": "Bíceps",
+    "cue": "Antebraços apoiados no banco, flexão de punho concentrada."
+  },
+  {
+    "title": "Extensão de Punho com Barra (Extensores)",
+    "muscle": "Bíceps",
+    "cue": "Palmas para baixo, extensão de punho controlada."
+  },
+  {
+    "title": "Tríceps na Polia com Barra Reta",
+    "muscle": "Tríceps",
+    "cue": "Cotovelos fixos, extensão completa, pausa de 1s no final."
+  },
+  {
+    "title": "Tríceps na Polia com Corda",
+    "muscle": "Tríceps",
+    "cue": "Abertura das pontas no final, extensão máxima contraindo a cabeça lateral."
+  },
+  {
+    "title": "Tríceps na Polia com Barra V",
+    "muscle": "Tríceps",
+    "cue": "Pegada confortável em V, extensão pesada com cotovelos estáveis."
+  },
+  {
+    "title": "Tríceps Testa com Barra W",
+    "muscle": "Tríceps",
+    "cue": "Deitado no banco, descer a barra na direção da testa/cabeça."
+  },
+  {
+    "title": "Tríceps Testa com Halteres",
+    "muscle": "Tríceps",
+    "cue": "Unilateral ou simultâneo com halteres, maior liberdade articular."
+  },
+  {
+    "title": "Tríceps Francês com Haltere (Bilateral)",
+    "muscle": "Tríceps",
+    "cue": "Sentado, segurar haltere pesado com ambas as mãos atrás da cabeça."
+  },
+  {
+    "title": "Tríceps Francês Unilateral na Polia",
+    "muscle": "Tríceps",
+    "cue": "De costas para a polia baixa, extensão acima da cabeça."
+  },
+  {
+    "title": "Mergulho entre Bancos",
+    "muscle": "Tríceps",
+    "cue": "Calcanhares apoiados à frente, descer até 90° nos cotovelos."
+  },
+  {
+    "title": "Mergulho nas Barras Paralelas",
+    "muscle": "Tríceps",
+    "cue": "Tronco ereto para enfatizar o tríceps, extensão completa."
+  },
+  {
+    "title": "Tríceps Coice com Haltere",
+    "muscle": "Tríceps",
+    "cue": "Tronco inclinado, cotovelo fixo alto, extensão posterior completa."
+  },
+  {
+    "title": "Tríceps Coice na Polia",
+    "muscle": "Tríceps",
+    "cue": "Cabo sem pegadora ou com manopla, tensão contínua na extensão."
+  },
+  {
+    "title": "Supino Fechado com Barra",
+    "muscle": "Tríceps",
+    "cue": "Pegada na largura dos ombros, cotovelos rente ao corpo."
+  },
+  {
+    "title": "Agachamento Livre com Barra",
+    "muscle": "Quadríceps",
+    "cue": "Pés afastados na linha dos ombros, joelhos na linha dos pés, descer até 90°."
+  },
+  {
+    "title": "Agachamento Frontal com Barra",
+    "muscle": "Quadríceps",
+    "cue": "Barra apoiada nos deltoides anteriores, tronco bem ereto."
+  },
+  {
+    "title": "Agachamento Barra Guiada (Smith)",
+    "muscle": "Quadríceps",
+    "cue": "Posicionar o tronco alinhado, joelhos seguindo a linha dos pés."
+  },
+  {
+    "title": "Hack Squat (Agachamento Hack)",
+    "muscle": "Quadríceps",
+    "cue": "Pés baixos na plataforma para maior enfatização de quadríceps."
+  },
+  {
+    "title": "Leg Press 45°",
+    "muscle": "Quadríceps",
+    "cue": "Pés em abdução de 45°, descer o joelho ao máximo sem tirar o lombar."
+  },
+  {
+    "title": "Leg Press Horizontal",
+    "muscle": "Quadríceps",
+    "cue": "Carga direta horizontal, extensão completa sem travar joelhos."
+  },
+  {
+    "title": "Cadeira Extensora",
+    "muscle": "Quadríceps",
+    "cue": "Ajustar o rolo no tornozelo, extensão completa com pausa no topo."
+  },
+  {
+    "title": "Extensora Unilateral",
+    "muscle": "Quadríceps",
+    "cue": "Isolamento de uma perna por vez para simetria de quadríceps."
+  },
+  {
+    "title": "Avanço (Afundo com Halteres)",
+    "muscle": "Quadríceps",
+    "cue": "Passada larga, joelho da frente não ultrapassa o pé, tronco ereto."
+  },
+  {
+    "title": "Búlgaro com Halteres",
+    "muscle": "Quadríceps",
+    "cue": "Pé traseiro elevado no banco, descer o quadril na vertical."
+  },
+  {
+    "title": "Agachamento Sissy (Sissy Squat)",
+    "muscle": "Quadríceps",
+    "cue": "Projeção dos joelhos à frente com calcanhares elevados, foco extremo em reto femoral."
+  },
+  {
+    "title": "Passada com Halteres / Barra",
+    "muscle": "Quadríceps",
+    "cue": "Passada em deslocamento continuo no salão."
+  },
+  {
+    "title": "Elevação Pélvica com Barra",
+    "muscle": "Glúteos",
+    "cue": "Sobe rápido, contrai o glúteo ao máximo no topo e desce devagar."
+  },
+  {
+    "title": "Elevação Pélvica na Máquina",
+    "muscle": "Glúteos",
+    "cue": "Aparelho específico articulado, pico de contração de 2s no topo."
+  },
+  {
+    "title": "Elevação Pélvica Unilateral",
+    "muscle": "Glúteos",
+    "cue": "Uma perna elevada, contração máxima no quadril, alinhamento do joelho."
+  },
+  {
+    "title": "Agachamento Sumô com Haltere / Anilha",
+    "muscle": "Glúteos",
+    "cue": "Pés bem abertos e apontados para fora, joelhos seguem os pés."
+  },
+  {
+    "title": "Afundo Reverso no Banco",
+    "muscle": "Glúteos",
+    "cue": "Passo para trás descendo o joelho quase ao chão, peso na perna da frente."
+  },
+  {
+    "title": "Abdução de Quadril na Máquina",
+    "muscle": "Glúteos",
+    "cue": "Quadril encostado, abertura lateral cadenciada, pausa no final."
+  },
+  {
+    "title": "Abdução de Quadril na Polia (Em Pé)",
+    "muscle": "Glúteos",
+    "cue": "Caneleira ou puxador no tornozelo, elevação lateral da perna."
+  },
+  {
+    "title": "Cadeira Adutora (Adutores)",
+    "muscle": "Glúteos",
+    "cue": "Quadril totalmente encostado, adução cadenciada com pausa no fechamento."
+  },
+  {
+    "title": "Glúteo no Cabo (4 Apoios / Caneleira)",
+    "muscle": "Glúteos",
+    "cue": "Joelho a 90°, extensão da perna para trás e acima, contração máxima."
+  },
+  {
+    "title": "Glúteo na Máquina (Coice Vertical)",
+    "muscle": "Glúteos",
+    "cue": "Empurrar a plataforma para trás focando em glúteo máximo."
+  },
+  {
+    "title": "Frog Pump (Elevação de Quadril Borboleta)",
+    "muscle": "Glúteos",
+    "cue": "Solas dos pés unidas, elevação de quadril contínua com alta repetição."
+  },
+  {
+    "title": "Hiperextensão Invertida (Glute Focus)",
+    "muscle": "Glúteos",
+    "cue": "Elevação das pernas com joelhos em abdução focando nos glúteos."
+  },
+  {
+    "title": "Stiff com Barra",
+    "muscle": "Posterior",
+    "cue": "Leve semiflexão dos joelhos, quadril empurra para trás, coluna ereta."
+  },
+  {
+    "title": "Stiff com Halteres",
+    "muscle": "Posterior",
+    "cue": "Mesma técnica do stiff com barra, maior amplitude ao lado das pernas."
+  },
+  {
+    "title": "RDL (Romanian Deadlift)",
+    "muscle": "Posterior",
+    "cue": "Barra raspa nas coxas, descida até abaixo dos joelhos mantendo tensão."
+  },
+  {
+    "title": "Cadeira Flexora Deitada (Mesa Flexora)",
+    "muscle": "Posterior",
+    "cue": "Travar o apoio da coxa, flexão contínua dos joelhos até 90°."
+  },
+  {
+    "title": "Cadeira Flexora Sentada",
+    "muscle": "Posterior",
+    "cue": "Quadril colado no encosto, flexão controlada, pausa na contração."
+  },
+  {
+    "title": "Mesa Flexora Unilateral",
+    "muscle": "Posterior",
+    "cue": "Uma perna de cada vez, maior controle e correção de assimetrias."
+  },
+  {
+    "title": "Leg Curl na Polia (Em Pé)",
+    "muscle": "Posterior",
+    "cue": "Em pé, polia no tornozelo, flexão do joelho isolando isquiotibiais."
+  },
+  {
+    "title": "Flexão de Joelhos com Bola Suíça",
+    "muscle": "Posterior",
+    "cue": "Deitado de costas, calcanhares na bola, puxar a bola flexionando os joelhos."
+  },
+  {
+    "title": "Good Morning (Bom Dia) com Barra",
+    "muscle": "Posterior",
+    "cue": "Barra no trapézio, flexão de quadril à frente mantendo a espinha neutra."
+  },
+  {
+    "title": "Flexão Nórdica (Nordic Curl)",
+    "muscle": "Posterior",
+    "cue": "Tornozelos presos, controle exaustivo na descida do tronco à frente."
+  },
+  {
+    "title": "Panturrilha em Pé na Máquina / Smith",
+    "muscle": "Panturrilha",
+    "cue": "Amplitude máxima, pausa no topo e no fundo, movimento cadenciado."
+  },
+  {
+    "title": "Panturrilha Sentado (Soleus Machine)",
+    "muscle": "Panturrilha",
+    "cue": "Foco no músculo sóleo, amplitude completa, pausa de 2s no topo."
+  },
+  {
+    "title": "Panturrilha Unilateral em Degrau",
+    "muscle": "Panturrilha",
+    "cue": "Apoio da ponta do pé no degrau, descer ao máximo e subir concentrado."
+  },
+  {
+    "title": "Panturrilha no Leg Press 45°",
+    "muscle": "Panturrilha",
+    "cue": "Apenas as pontas dos pés na base da plataforma, extensão do tornozelo."
+  },
+  {
+    "title": "Panturrilha no Hack Squat",
+    "muscle": "Panturrilha",
+    "cue": "Pontas dos pés na borda da plataforma do hack, elevação máxima."
+  },
+  {
+    "title": "Abdominal Crunch Solo",
+    "muscle": "Abdômen",
+    "cue": "Mãos atrás da cabeça, lombar colada no chão, flexionar o tronco."
+  },
+  {
+    "title": "Abdominal Infra na Prancha / Solo",
+    "muscle": "Abdômen",
+    "cue": "Elevar as pernas com elevação da pelve no topo, descida lenta."
+  },
+  {
+    "title": "Abdominal Infra Suspenso na Barra",
+    "muscle": "Abdômen",
+    "cue": "Suspenso na barra, elevar joelhos ou pernas estendidas até o peito."
+  },
+  {
+    "title": "Abdominal na Polia Alta (Cable Crunch)",
+    "muscle": "Abdômen",
+    "cue": "Joelhos no chão, flexão de tronco puxando a corda para baixo."
+  },
+  {
+    "title": "Abdominal Bicicleta (Cross Crunch)",
+    "muscle": "Abdômen",
+    "cue": "Cotovelo toca o joelho oposto com rotação de tronco alternada."
+  },
+  {
+    "title": "Prancha Frontal (Plank)",
+    "muscle": "Abdômen",
+    "cue": "Corpo rígido paralela ao chão, quadril e glúteos contraídos."
+  },
+  {
+    "title": "Prancha Lateral (Side Plank)",
+    "muscle": "Abdômen",
+    "cue": "Apoio no antebraço e lateral do pé, quadril bem elevado."
+  },
+  {
+    "title": "Russian Twist com Haltere",
+    "muscle": "Abdômen",
+    "cue": "Tronco inclinado a 45°, rotação do torso de um lado para o outro."
+  },
+  {
+    "title": "Rolinho Abdominal (Ab Wheel)",
+    "muscle": "Abdômen",
+    "cue": "Rolar a roda à frente mantendo a lombar neutra e abdomen travado."
+  },
+  {
+    "title": "Dead Bug",
+    "muscle": "Abdômen",
+    "cue": "Deitado, extensão alternada de braço e perna mantendo lombar no chão."
+  },
+  {
+    "title": "Stomach Vacuum (Vacuum Abdominal)",
+    "muscle": "Abdômen",
+    "cue": "Expulsar todo o ar e sugar o umbigo para dentro em direção à coluna por 15s."
+  },
+  {
+    "title": "Oblíquo na Polia (Side Bends)",
+    "muscle": "Abdômen",
+    "cue": "Flexão lateral de tronco segurando o cabo da polia baixa."
+  },
+  {
+    "title": "Esteira Ergométrica (Caminhada / Corrida)",
+    "muscle": "Cardio",
+    "cue": "Postura ereta, pisada no meio do pé, controle de inclinação e velocidade."
+  },
+  {
+    "title": "Simulador de Escada (Stairmaster)",
+    "muscle": "Cardio",
+    "cue": "Calcanhar inteiro no degrau, tronco ereto sem debruçar nos corrimãos."
+  },
+  {
+    "title": "Bicicleta Ergométrica (Spinning / Vertical)",
+    "muscle": "Cardio",
+    "cue": "Ajuste de selim na altura do quadril, pedalada circular e ritmada."
+  },
+  {
+    "title": "Remo Seco (Rower Machine)",
+    "muscle": "Cardio",
+    "cue": "Empurre forte com as pernas antes de puxar a empunhadura ao abdômen."
+  },
+  {
+    "title": "Elíptico (Cross Trainer)",
+    "muscle": "Cardio",
+    "cue": "Movimento contínuo sem impacto nas articulações, braços e pernas ativos."
+  },
+  {
+    "title": "Air Bike (Assault Bike)",
+    "muscle": "Cardio",
+    "cue": "Trabalho de alta potência em membros superiores e inferiores simultâneos."
+  },
+  {
+    "title": "Corrida Outdoor / Pista",
+    "muscle": "Cardio",
+    "cue": "Manter cadência constante, respiração ritmada pelo nariz e boca."
+  },
+  {
+    "title": "Corda Naval (Battle Rope Cardio)",
+    "muscle": "Cardio",
+    "cue": "Ondas contínuas em base semi-agachada para queima calórica intensa."
+  },
+  {
+    "title": "Pular Corda (Jump Rope)",
+    "muscle": "Cardio",
+    "cue": "Saltos leves nas pontas dos pés, rotação vinda dos punhos."
+  },
+  {
+    "title": "Burpee Completo",
+    "muscle": "Funcional",
+    "cue": "Agachar, saltar para trás, flexão de peito no chão, retornar e saltar verticalmente."
+  },
+  {
+    "title": "Mountain Climber",
+    "muscle": "Funcional",
+    "cue": "Posição de prancha, alternar joelhos ao peito em ritmo acelerado."
+  },
+  {
+    "title": "Jump Squat (Agachamento com Salto)",
+    "muscle": "Funcional",
+    "cue": "Agachar e saltar explosivo, amortecendo a queda na descida."
+  },
+  {
+    "title": "Polichinelo (Jumping Jacks)",
+    "muscle": "Funcional",
+    "cue": "Movimento contínuo e rítmico de abertura de braços e pernas."
+  },
+  {
+    "title": "Escada de Agilidade",
+    "muscle": "Funcional",
+    "cue": "Passos rápidos em frequência de pés dentro e fora da escada."
+  },
+  {
+    "title": "Mobilidade de Quadril (90/90)",
+    "muscle": "Funcional",
+    "cue": "Rotação interna e externa de quadril no solo para soltura articular."
+  },
+  {
+    "title": "Mobilidade de Ombro & Torácica",
+    "muscle": "Funcional",
+    "cue": "Rotação de braços e extensão torácica antes do treino de membros superiores."
+  }
+]

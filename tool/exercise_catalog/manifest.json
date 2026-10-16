@@ -1,0 +1,22 @@
+{
+  "originalCount": 876,
+  "translatedCount": 873,
+  "localTranslations": [
+    "Kettlebell_Halo",
+    "Kettlebell_Halo_With_Overhead_Extension",
+    "Kettlebell_Overhead_Triceps_Extension"
+  ],
+  "legacyCount": 152,
+  "catalogCount": 2029,
+  "legacyMergedCount": 97,
+  "snapshots": {
+    "exercises-en.json": "5bb747e3fc658f095a60dcbf6d53c96627acdcc6ffb6fffde86f7e26995d40bf",
+    "exercises-ptbr.json": "bea7728b7bb811bc1c304e2758e1e4eeecc8be592dfd3cd12b7534cc9fa89880",
+    "legacy.json": "8519df4223131d27153e17fa794c008e658b37af02a443c07f6e9dfa35feb186"
+  },
+  "gymvisualAddedCount": 1098,
+  "gymvisualExistingMatches": 130,
+  "gymvisualRevision": "7455efae41b330c265e7cd4b78dfa848e7ce5ebd",
+  "gymvisualDeduplicatedCount": 96,
+  "gymvisualReviewedMediaLinks": 99
+}

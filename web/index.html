@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="VALEX Pro — precisão em cada treino.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="VALEX Pro">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>VALEX Pro</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#080B10">
+  <style>
+    @font-face {
+      font-family: "Poppins";
+      src: url("assets/assets/fonts/Poppins-Regular.ttf") format("truetype");
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Poppins";
+      src: url("assets/assets/fonts/Poppins-Bold.ttf") format("truetype");
+      font-weight: 700;
+      font-display: swap;
+    }
+    html, body { min-height: 100%; margin: 0; background: #080B10; }
+    #boot {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      grid-template-areas: "brand character" "status character";
+      grid-template-rows: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+      padding: 36px 64px;
+      box-sizing: border-box;
+      overflow: hidden;
+      color: #F1F5F9;
+      background: linear-gradient(125deg, #080B10 0%, #0F131A 62%, #19202C 100%);
+      font-family: "Poppins", Arial, sans-serif;
+      transition: opacity 180ms ease-out;
+    }
+    #boot.is-ready { opacity: 0; pointer-events: none; }
+    .boot-brand { grid-area: brand; align-self: end; display: grid; justify-items: center; }
+    .boot-logo { width: 220px; height: 220px; object-fit: contain; }
+    .boot-tagline {
+      margin: 14px 0 0;
+      color: #CBD5E1;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+    .boot-character {
+      grid-area: character;
+      align-self: end;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      object-position: center bottom;
+    }
+    .boot-status { grid-area: status; align-self: start; margin-top: 58px; display: grid; justify-items: center; }
+    .boot-brand, .boot-status { transform: translateY(56px); }
+    .boot-spinner {
+      width: 20px;
+      height: 20px;
+      border: 2px solid #252F40;
+      border-top-color: #60A5FA;
+      border-radius: 50%;
+      animation: boot-spin 800ms linear infinite;
+    }
+    .boot-state { margin: 20px 0 0; font-size: 13px; font-weight: 700; letter-spacing: 1px; text-align: center; }
+    .boot-hint { margin: 6px 0 0; color: #CBD5E1; font-size: 14px; text-align: center; }
+    .boot-retry {
+      display: none;
+      margin-top: 18px;
+      padding: 12px 20px;
+      border: 0;
+      border-radius: 8px;
+      color: #080B10;
+      background: #3B82F6;
+      font: 700 14px "Poppins", Arial, sans-serif;
+      cursor: pointer;
+    }
+    .boot-retry:focus-visible { outline: 3px solid #F1F5F9; outline-offset: 3px; }
+    #boot.is-stalled .boot-spinner { display: none; }
+    #boot.is-stalled .boot-retry { display: inline-block; }
+    @keyframes boot-spin { to { transform: rotate(360deg); } }
+    @media (max-width: 799px) {
+      #boot {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: auto minmax(0, 1fr) auto;
+        grid-template-areas: "brand" "character" "status";
+        padding: 36px 24px;
+      }
+      .boot-brand { align-self: start; }
+      .boot-brand, .boot-status { transform: none; }
+      .boot-logo { width: 170px; height: 170px; }
+      .boot-character { justify-self: center; min-height: 0; margin-top: 22px; }
+      .boot-status { align-self: end; margin-top: 20px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      #boot { transition: none; }
+      .boot-spinner { animation: none; border-color: #60A5FA; }
+    }
+  </style>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var boot = document.getElementById('boot');
+      if (!boot) return;
+      clearTimeout(window.valexBootTimeout);
+      window.setTimeout(function () {
+        boot.classList.add('is-ready');
+        window.setTimeout(function () { boot.remove(); }, 220);
+      }, 700);
+    }, { once: true });
+    window.valexBootTimeout = window.setTimeout(function () {
+      var boot = document.getElementById('boot');
+      if (!boot) return;
+      boot.classList.add('is-stalled');
+      boot.querySelector('.boot-state').textContent = 'NÃO FOI POSSÍVEL INICIAR';
+      boot.querySelector('.boot-hint').textContent = 'Confira sua conexão e tente novamente.';
+    }, 20000);
+  </script>
+</head>
+<body>
+  <div id="boot">
+    <div class="boot-brand">
+      <img class="boot-logo" src="assets/assets/images/logo_final.png" alt="VALEX Pro" width="220" height="220">
+      <p class="boot-tagline">PRECISION TRAINING PROTOCOL</p>
+    </div>
+    <img class="boot-character" src="assets/assets/images/character.png" alt="">
+    <div class="boot-status" role="status" aria-live="polite">
+      <span class="boot-spinner" aria-hidden="true"></span>
+      <p class="boot-state">PREPARANDO SEU TREINO</p>
+      <p class="boot-hint">Tudo pronto em instantes</p>
+      <button class="boot-retry" type="button" onclick="location.reload()">Tentar novamente</button>
+    </div>
+  </div>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

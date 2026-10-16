@@ -1,0 +1,1055 @@
+[
+  {
+    "id": "tradicional",
+    "name": "Tradicional",
+    "icon": "🔄",
+    "description": "Séries normais com número constante de repetições.",
+    "category": "musculacao",
+    "sets": [
+      "[prep]Série de preparação: 12 a 15 reps",
+      "[work]Série de trabalho: 8 a 12 reps",
+      "[work]Série de trabalho: 8 a 12 reps"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Força",
+      "Aprendizado técnico"
+    ],
+    "level": "Iniciante",
+    "guidance": "Ajuste repetições, descanso e carga à experiência do aluno. As séries de preparação não substituem as séries de trabalho.",
+    "aliases": [
+      "séries tradicionais",
+      "séries múltiplas",
+      "straight sets"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "piramide_crescente",
+    "name": "Pirâmide Crescente",
+    "icon": "🔺",
+    "description": "Carga aumenta e repetições diminuem a cada série.",
+    "category": "musculacao",
+    "sets": [
+      "[prep]1ª Série: 15 reps @ 50%",
+      "[work]2ª Série: 12 reps @ 65%",
+      "[work]3ª Série: 10 reps @ 75%",
+      "[work]4ª Série: 8 reps @ 85%"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Força"
+    ],
+    "level": "Intermediário",
+    "guidance": "Aumente a carga somente se a técnica se mantiver. Os percentuais do modelo são editáveis: confirme a referência antes de prescrever.",
+    "aliases": [
+      "pirâmide ascendente",
+      "ascending pyramid"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "piramide_invertida",
+    "name": "Pirâmide Invertida",
+    "icon": "🔻",
+    "description": "Maior carga na 1ª série de trabalho, reduzindo a carga nas subsequentes.",
+    "category": "musculacao",
+    "sets": [
+      "[warmup]Aquecimento: 12-15 reps @ 50%",
+      "[work]1ª Série (Top Set): 6-8 reps @ 85%",
+      "[work]2ª Série: 8-10 reps @ 75%",
+      "[work]3ª Série: 10-12 reps @ 65%"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Força"
+    ],
+    "level": "Intermediário",
+    "guidance": "Prepare o movimento antes da série mais pesada. Revise a carga de referência e a redução das séries seguintes.",
+    "aliases": [
+      "pirâmide decrescente",
+      "reverse pyramid"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "repeticao_forcada",
+    "name": "Repetição Forçada",
+    "icon": "⚡",
+    "description": "Chegar à falha concêntrica e realizar 2 a 3 repetições extras com auxílio.",
+    "category": "musculacao",
+    "sets": [
+      "[prep]1ª Série: 10-12 reps @ 65%",
+      "[work]2ª Série (Falha + 2 Forçadas): 8-10 reps @ 80%",
+      "[work]3ª Série (Falha + 3 Forçadas): 6-8 reps @ 85%"
+    ],
+    "goals": [
+      "Hipertrofia"
+    ],
+    "level": "Avançado",
+    "guidance": "Requer auxílio presencial de alguém capacitado e escolha cuidadosa do exercício. Revise as séries; repetições forçadas não são necessárias em toda sessão.",
+    "aliases": [
+      "repetições assistidas",
+      "forced reps"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "progressao_carga",
+    "name": "Progressão de Carga",
+    "icon": "📈",
+    "description": "Aumento progressivo de carga a cada série com manutenção de boa técnica.",
+    "category": "musculacao",
+    "sets": [
+      "[prep]1ª Série: 12 reps @ 60%",
+      "[work]2ª Série: 10 reps @ 70%",
+      "[work]3ª Série: 8 reps @ 80%",
+      "[work]4ª Série: 6 reps @ 90%"
+    ],
+    "goals": [
+      "Força",
+      "Hipertrofia"
+    ],
+    "level": "Intermediário",
+    "guidance": "Os percentuais são um ponto de partida editável, não uma relação obrigatória entre carga e repetições. Defina a referência e ajuste ao desempenho.",
+    "aliases": [
+      "sobrecarga progressiva",
+      "rampa de carga"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "drop_set",
+    "name": "Drop-Set",
+    "icon": "💧",
+    "description": "Executar até a falha e imediatamente reduzir 20-30% da carga para mais repetições.",
+    "category": "musculacao",
+    "sets": [
+      "[prep]1ª Série: 10-12 reps @ 65%",
+      "[work]2ª Série: 8-10 reps @ 75%",
+      "[work]3ª Série Drop-Set (Falha -> Reduz 30% -> Falha): 6-8 reps + Drop"
+    ],
+    "goals": [
+      "Hipertrofia"
+    ],
+    "level": "Avançado",
+    "guidance": "Planeje a redução de carga e o limite de esforço. O modelo inclui falha; revise esse limite antes de adicionar.",
+    "aliases": [
+      "drop set",
+      "dropset",
+      "série descendente"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "rest_pause",
+    "name": "Rest-Pause",
+    "icon": "⏱️",
+    "description": "Série até a falha, descanso de 10-15s e retomar com a mesma carga para mais repetições.",
+    "category": "musculacao",
+    "sets": [
+      "[prep]1ª Série: 10-12 reps @ 65%",
+      "[work]2ª Série: 8-10 reps @ 75%",
+      "[work]3ª Série Rest-Pause (Falha -> Pausa 15s -> +3-4 reps): 6-8 reps"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Força"
+    ],
+    "level": "Avançado",
+    "guidance": "Defina a pausa e o número de minisséries. Revise a menção à falha no modelo conforme o aluno e o exercício.",
+    "aliases": [
+      "rest pause",
+      "pausa e descanso",
+      "série com pausa"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "cluster_set",
+    "name": "Cluster Set",
+    "icon": "🧩",
+    "description": "Séries fracionadas com mini-pausas intra-série (10-15s) para alta intensidade.",
+    "category": "musculacao",
+    "sets": [
+      "[prep]1ª Série Preparação: 8-10 reps @ 65%",
+      "[work]2ª Série Cluster (3 mini-blocos, 15s pausa): 3+3+3 reps @ 85%",
+      "[work]3ª Série Cluster (3 mini-blocos, 15s pausa): 3+3+3 reps @ 85%",
+      "[work]4ª Série Cluster (3 mini-blocos, 15s pausa): 3+3+3 reps @ 85%"
+    ],
+    "goals": [
+      "Força",
+      "Potência",
+      "Hipertrofia"
+    ],
+    "level": "Intermediário",
+    "guidance": "Distribua pausas entre pequenos grupos de repetições. Diferencie a pausa dentro da série do descanso entre séries e revise os percentuais.",
+    "aliases": [
+      "cluster sete",
+      "cluster",
+      "séries fracionadas",
+      "intra-série"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "bi_set",
+    "name": "Bi-Set",
+    "icon": "🔁",
+    "description": "Dois exercícios executados em sequência sem descanso entre eles.",
+    "category": "musculacao",
+    "sets": [
+      "[work]1ª Série Bi-Set: 10-12 reps",
+      "[work]2ª Série Bi-Set: 10-12 reps",
+      "[work]3ª Série Bi-Set: 10-12 reps"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Resistência muscular"
+    ],
+    "level": "Intermediário",
+    "guidance": "Adicione também o segundo exercício ao treino. Identifique o par e a ordem nas observações de ambos; este modelo não cria o par automaticamente.",
+    "aliases": [
+      "biset",
+      "bi set",
+      "série combinada",
+      "superset mesmo músculo"
+    ],
+    "requiresCompanionExercises": true,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "hiit_tiros",
+    "name": "HIIT — intervalos curtos",
+    "icon": "🔥",
+    "description": "Alterna estímulos intensos com períodos de recuperação ativa.",
+    "category": "cardio",
+    "sets": [
+      "[warmup]Aquecimento: 3 a 5 min em ritmo leve (50-60% FCM)",
+      "[work]Tiros 1 a 8: 30s Velocidade/Potência Máxima + 30s Recuperação Leve",
+      "[warmup]Desaquecimento: 3 min caminhada/pedalada leve"
+    ],
+    "goals": [
+      "Condicionamento",
+      "Emagrecimento"
+    ],
+    "level": "Avançado",
+    "guidance": "Revise esforço, recuperação e número de tiros. O modelo menciona máximo: personalize a intensidade e não a trate como obrigatória.",
+    "aliases": [
+      "hiit",
+      "tiros",
+      "alta intensidade",
+      "intervalado intenso"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "tabata_cardio",
+    "name": "Intervalos 20/10 (formato Tabata)",
+    "icon": "⚡",
+    "description": "Organiza intervalos de 20 segundos de esforço e 10 segundos de recuperação.",
+    "category": "cardio",
+    "sets": [
+      "[warmup]Aquecimento: 3 min ritmo moderado",
+      "[work]Bloco 1 (8 ciclos de 20s/10s): Potência Máxima",
+      "[work]Bloco 2 (8 ciclos de 20s/10s): Potência Máxima",
+      "[warmup]Desaquecimento: 2 min ritmado leve"
+    ],
+    "goals": [
+      "Condicionamento"
+    ],
+    "level": "Avançado",
+    "guidance": "O tempo 20/10 não torna toda atividade equivalente ao protocolo original. Revise os blocos e a intensidade máxima do modelo antes de usar.",
+    "aliases": [
+      "tabata",
+      "20/10",
+      "20 segundos 10 segundos"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "liss_continuo",
+    "name": "LISS — contínuo leve",
+    "icon": "🏃",
+    "description": "Exercício contínuo em ritmo leve, com duração e intensidade ajustáveis.",
+    "category": "cardio",
+    "sets": [
+      "[warmup]Aquecimento: 3 min elevação progressiva de ritmo",
+      "[work]Fase Contínua: 30 a 40 min em ritmo constante (60-70% FCM)",
+      "[warmup]Desaquecimento: 3 min desaceleração"
+    ],
+    "goals": [
+      "Condicionamento",
+      "Emagrecimento"
+    ],
+    "level": "Iniciante",
+    "guidance": "Escolha duração e ritmo sustentáveis. Revise a zona de frequência cardíaca do modelo. Nenhum ritmo garante perda de gordura isoladamente.",
+    "aliases": [
+      "liss",
+      "cardio leve",
+      "baixa intensidade",
+      "contínuo"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "fartlek_variado",
+    "name": "Fartlek — variação de ritmo",
+    "icon": "🚴",
+    "description": "Alternância entre ritmos forte, moderado e leve para capacidade cardiorrespiratória.",
+    "category": "cardio",
+    "sets": [
+      "[warmup]Aquecimento: 5 min ritmo leve",
+      "[work]2 min Ritmo Moderado (70% FCM)",
+      "[work]1 min Tiro Forte (85-90% FCM)",
+      "[work]Repetir alternância por 20 minutos",
+      "[warmup]Desaquecimento: 3 min leve"
+    ],
+    "goals": [
+      "Condicionamento",
+      "Emagrecimento"
+    ],
+    "level": "Intermediário",
+    "guidance": "Planeje os trechos e permita ajuste de ritmo ao terreno e à percepção de esforço. Revise as zonas de frequência cardíaca.",
+    "aliases": [
+      "fartlek",
+      "jogo de velocidade",
+      "ritmo variado"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "piramide_aerobica",
+    "name": "Pirâmide Aeróbica",
+    "icon": "🔺",
+    "description": "Aumento progressivo de velocidade/inclinação até o pico e redução gradual.",
+    "category": "cardio",
+    "sets": [
+      "[warmup]Estágio 1: 3 min @ Ritmo Leve (50% FCM)",
+      "[work]Estágio 2: 3 min @ Ritmo Moderado (65% FCM)",
+      "[work]Estágio 3 (Pico): 3 min @ Esforço Máximo (85-90% FCM)",
+      "[work]Estágio 4: 3 min @ Ritmo Moderado (65% FCM)",
+      "[warmup]Estágio 5: 3 min @ Recuperação (50% FCM)"
+    ],
+    "goals": [
+      "Condicionamento"
+    ],
+    "level": "Intermediário",
+    "guidance": "Aumente e reduza o ritmo em etapas. Ajuste o pico ao aluno; esforço máximo não é obrigatório.",
+    "aliases": [
+      "pirâmide cardio",
+      "rampa aeróbica"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "hill_climb_resistencia",
+    "name": "Inclinação ou resistência progressiva",
+    "icon": "⛰️",
+    "description": "Foco em resistência muscular e respiratória com alta inclinação ou carga.",
+    "category": "cardio",
+    "sets": [
+      "[warmup]Aquecimento: 3 min plano",
+      "[work]3 min com Inclinação 5% @ Ritmo Moderado",
+      "[work]3 min com Inclinação 8-10% @ Ritmo Forte",
+      "[work]3 min com Inclinação 12% @ Esforço Máximo",
+      "[warmup]3 min plano para desaceleração"
+    ],
+    "goals": [
+      "Condicionamento",
+      "Resistência muscular"
+    ],
+    "level": "Intermediário",
+    "guidance": "Adapte inclinação ou resistência ao equipamento e à técnica. Revise os valores e o esforço máximo do modelo.",
+    "aliases": [
+      "hill climb",
+      "subida",
+      "inclinação",
+      "resistência bicicleta"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "piramide_completa",
+    "name": "Pirâmide Completa",
+    "icon": "",
+    "description": "A carga aumenta e depois diminui dentro da sequência de séries.",
+    "category": "musculacao",
+    "sets": [
+      "[work]12 reps com carga inicial · descanso 90 s",
+      "[work]10 reps com aumento de carga · descanso 90 s",
+      "[work]8 reps com aumento de carga · descanso 120 s",
+      "[work]10 reps com redução de carga · descanso 90 s",
+      "[work]12 reps com redução de carga"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Força"
+    ],
+    "level": "Intermediário",
+    "guidance": "Planeje as duas fases sem exigir um teste máximo. Ajuste as cargas para manter a execução.",
+    "aliases": [
+      "pirâmide dupla",
+      "pirâmide crescente decrescente"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "superset_antagonista",
+    "name": "Superset Agonista–Antagonista",
+    "icon": "",
+    "description": "Alterna dois exercícios de grupos musculares antagonistas.",
+    "category": "musculacao",
+    "sets": [
+      "[work]1ª rodada: 8-12 reps neste exercício · seguir a ordem registrada · descanso após o par 90 s",
+      "[work]2ª rodada: 8-12 reps neste exercício · seguir a ordem registrada · descanso após o par 90 s",
+      "[work]3ª rodada: 8-12 reps neste exercício · seguir a ordem registrada"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Força"
+    ],
+    "level": "Intermediário",
+    "guidance": "Inclua o exercício parceiro e identifique o par nas observações de ambos. Ajuste a transição e o descanso após o par.",
+    "aliases": [
+      "superset",
+      "super série",
+      "supersérie",
+      "agonista antagonista"
+    ],
+    "requiresCompanionExercises": true,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "tri_set",
+    "name": "Tri-Set",
+    "icon": "",
+    "description": "Agrupa três exercícios executados em sequência.",
+    "category": "musculacao",
+    "sets": [
+      "[work]1ª rodada: 10-12 reps → seguir os outros dois exercícios · descanso 120 s após o trio",
+      "[work]2ª rodada: 10-12 reps → seguir os outros dois exercícios · descanso 120 s após o trio",
+      "[work]3ª rodada: 10-12 reps → seguir os outros dois exercícios"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Resistência muscular"
+    ],
+    "level": "Avançado",
+    "guidance": "Inclua os outros dois exercícios e indique a ordem. Ajuste as cargas ao esforço acumulado e o descanso ao final da rodada.",
+    "aliases": [
+      "triset",
+      "tri set",
+      "série tripla"
+    ],
+    "requiresCompanionExercises": true,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "giant_set",
+    "name": "Giant Set (série gigante)",
+    "icon": "",
+    "description": "Reúne quatro ou mais exercícios em uma sequência planejada.",
+    "category": "musculacao",
+    "sets": [
+      "[work]1ª rodada: 10 reps → próximos exercícios da sequência · descanso 120 s ao final",
+      "[work]2ª rodada: 10 reps → próximos exercícios da sequência · descanso 120 s ao final"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Resistência muscular"
+    ],
+    "level": "Avançado",
+    "guidance": "Inclua os demais exercícios, registre a ordem e ajuste o volume total. A lista de parceiros deve corresponder aos exercícios da ficha.",
+    "aliases": [
+      "giant set",
+      "séries gigantes",
+      "gigante"
+    ],
+    "requiresCompanionExercises": true,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "pre_exaustao",
+    "name": "Pré-exaustão",
+    "icon": "",
+    "description": "Coloca um exercício isolado antes de um exercício composto do mesmo grupo.",
+    "category": "musculacao",
+    "sets": [
+      "[work]1ª rodada: 10-12 reps neste exercício · seguir a ordem registrada · descanso após o par 120 s",
+      "[work]2ª rodada: 10-12 reps neste exercício · seguir a ordem registrada · descanso após o par 120 s"
+    ],
+    "goals": [
+      "Hipertrofia"
+    ],
+    "level": "Avançado",
+    "guidance": "Identifique a ordem e inclua o parceiro na ficha. Revise a carga do exercício composto considerando a fadiga anterior.",
+    "aliases": [
+      "pre exaustao",
+      "pre exhaustion"
+    ],
+    "requiresCompanionExercises": true,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "pos_exaustao",
+    "name": "Pós-exaustão",
+    "icon": "",
+    "description": "Combina um exercício composto seguido de um isolado do mesmo grupo.",
+    "category": "musculacao",
+    "sets": [
+      "[work]1ª rodada: 8-12 reps neste exercício · seguir a ordem registrada · descanso após o par 120 s",
+      "[work]2ª rodada: 8-12 reps neste exercício · seguir a ordem registrada · descanso após o par 120 s"
+    ],
+    "goals": [
+      "Hipertrofia"
+    ],
+    "level": "Avançado",
+    "guidance": "Indique qual posição este exercício ocupa e inclua o parceiro. Ajuste a carga do segundo exercício à fadiga acumulada.",
+    "aliases": [
+      "pos exaustao",
+      "post exhaustion"
+    ],
+    "requiresCompanionExercises": true,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "drop_mecanico",
+    "name": "Drop Mecânico",
+    "icon": "",
+    "description": "Muda para uma variação de execução mais favorável dentro da sequência.",
+    "category": "musculacao",
+    "sets": [
+      "[work]1ª sequência: 8 reps na variação inicial → 6 reps na variação seguinte · descanso 120 s",
+      "[work]2ª sequência: 8 reps na variação inicial → 6 reps na variação seguinte"
+    ],
+    "goals": [
+      "Hipertrofia"
+    ],
+    "level": "Avançado",
+    "guidance": "Registre a variação seguinte e a transição. Mantenha uma amplitude e uma técnica que possam ser repetidas com controle.",
+    "aliases": [
+      "mechanical drop set",
+      "drop set mecânico"
+    ],
+    "requiresCompanionExercises": true,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "tempo_controlado",
+    "name": "Cadência Controlada",
+    "icon": "",
+    "description": "Define o tempo de cada fase da repetição.",
+    "category": "musculacao",
+    "sets": [
+      "[work]8-10 reps · cadência 3–0–1–0 · descanso 90 s",
+      "[work]8-10 reps · cadência 3–0–1–0 · descanso 90 s",
+      "[work]8-10 reps · cadência 3–0–1–0"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Aprendizado técnico"
+    ],
+    "level": "Iniciante",
+    "guidance": "Neste modelo, 3–0–1–0 significa 3 s na descida, sem pausa, 1 s na subida e sem pausa. Adapte a carga à cadência.",
+    "aliases": [
+      "tempo",
+      "tempo controlado",
+      "cadência",
+      "tut",
+      "tempo sob tensão"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "pausa_isometrica",
+    "name": "Pausa Isométrica",
+    "icon": "",
+    "description": "Inclui uma pausa em uma posição definida do movimento.",
+    "category": "musculacao",
+    "sets": [
+      "[work]8 reps com pausa de 2 s na posição indicada · descanso 90 s",
+      "[work]8 reps com pausa de 2 s na posição indicada · descanso 90 s",
+      "[work]8 reps com pausa de 2 s na posição indicada"
+    ],
+    "goals": [
+      "Força",
+      "Aprendizado técnico"
+    ],
+    "level": "Intermediário",
+    "guidance": "Descreva nas observações a posição da pausa. Evite prender a respiração e mantenha o controle antes de retomar o movimento.",
+    "aliases": [
+      "isometria",
+      "pausa",
+      "pause reps",
+      "pausa no movimento"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": true,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "excentrica_controlada",
+    "name": "Ênfase Excêntrica",
+    "icon": "",
+    "description": "Dá atenção à fase de alongamento do músculo sob carga.",
+    "category": "musculacao",
+    "sets": [
+      "[work]8 reps · fase excêntrica de 3 s · retorno controlado · descanso 120 s",
+      "[work]8 reps · fase excêntrica de 3 s · retorno controlado · descanso 120 s",
+      "[work]8 reps · fase excêntrica de 3 s · retorno controlado"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Aprendizado técnico"
+    ],
+    "level": "Intermediário",
+    "guidance": "O modelo usa descida controlada, sem sobrecarga supramáxima. Ajuste carga e volume para manter a execução.",
+    "aliases": [
+      "excêntrico",
+      "negativa",
+      "fase excêntrica"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "top_set_backoff",
+    "name": "Top Set + Back-off",
+    "icon": "",
+    "description": "Usa uma série principal e séries seguintes com carga reduzida.",
+    "category": "musculacao",
+    "sets": [
+      "[prep]Preparação progressiva do movimento, sem fadiga excessiva",
+      "[work]Série principal: 6 reps com 2 reps em reserva · descanso 180 s",
+      "[work]Back-off 1: reduzir a carga em 10-15% e fazer 8 reps · descanso 120 s",
+      "[work]Back-off 2: 8 reps com a mesma carga reduzida"
+    ],
+    "goals": [
+      "Força",
+      "Hipertrofia"
+    ],
+    "level": "Intermediário",
+    "guidance": "Faça preparação específica antes da série principal. A redução se refere à carga da série principal, sem exigir tentativa máxima.",
+    "aliases": [
+      "top set",
+      "back off",
+      "backoff",
+      "série principal"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "forca_5x5",
+    "name": "Séries de Força (5 × 5)",
+    "icon": "",
+    "description": "Mantém cinco repetições por série com descanso mais longo.",
+    "category": "musculacao",
+    "sets": [
+      "[work]1ª série: 5 reps com 2 reps em reserva · descanso 180 s",
+      "[work]2ª série: 5 reps com 2 reps em reserva · descanso 180 s",
+      "[work]3ª série: 5 reps com 2 reps em reserva · descanso 180 s",
+      "[work]4ª série: 5 reps com 2 reps em reserva · descanso 180 s",
+      "[work]5ª série: 5 reps com 2 reps em reserva"
+    ],
+    "goals": [
+      "Força"
+    ],
+    "level": "Intermediário",
+    "guidance": "Selecione uma carga que preserve repetições de reserva. Faça preparação antes das séries e ajuste o volume quando necessário.",
+    "aliases": [
+      "5x5",
+      "cinco por cinco",
+      "força básica"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "resistencia_muscular",
+    "name": "Resistência Muscular Localizada",
+    "icon": "",
+    "description": "Organiza séries com mais repetições e carga ajustada à execução.",
+    "category": "musculacao",
+    "sets": [
+      "[work]15-20 reps · descanso 60 s",
+      "[work]15-20 reps · descanso 60 s",
+      "[work]15-20 reps"
+    ],
+    "goals": [
+      "Resistência muscular",
+      "Condicionamento"
+    ],
+    "level": "Iniciante",
+    "guidance": "Mantenha o controle até o fim da série e ajuste o intervalo ao aluno. Mais repetições não implicam emagrecimento localizado.",
+    "aliases": [
+      "rml",
+      "resistência localizada",
+      "altas repetições"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "circuito_resistido",
+    "name": "Circuito de Exercícios",
+    "icon": "",
+    "description": "Distribui os exercícios em estações com transições planejadas.",
+    "category": "musculacao",
+    "sets": [
+      "[work]1ª volta: 10 reps nesta estação → próxima estação · transição 30 s · descanso após a volta 90 s",
+      "[work]2ª volta: 10 reps nesta estação → próxima estação · transição 30 s · descanso após a volta 90 s",
+      "[work]3ª volta: 10 reps nesta estação → próxima estação · transição 30 s"
+    ],
+    "goals": [
+      "Condicionamento",
+      "Resistência muscular",
+      "Emagrecimento"
+    ],
+    "level": "Iniciante",
+    "guidance": "Inclua todas as estações na ficha e registre sua ordem. Ajuste carga, transição e descanso para completar o circuito com técnica.",
+    "aliases": [
+      "circuito",
+      "circuit training",
+      "estações",
+      "funcional"
+    ],
+    "requiresCompanionExercises": true,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "progressao_dupla",
+    "name": "Progressão Dupla",
+    "icon": "",
+    "description": "Primeiro progride as repetições dentro de uma faixa; depois ajusta a carga.",
+    "category": "musculacao",
+    "sets": [
+      "[work]8-12 reps · registrar repetições realizadas · descanso 90 s",
+      "[work]8-12 reps · registrar repetições realizadas · descanso 90 s",
+      "[work]8-12 reps · manter 2 reps em reserva"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Força"
+    ],
+    "level": "Iniciante",
+    "guidance": "Quando todas as séries atingirem o limite da faixa com boa técnica, programe um pequeno aumento de carga na próxima sessão.",
+    "aliases": [
+      "double progression",
+      "progressão de repetições"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "autoregulado_rir",
+    "name": "Autorregulação por Repetições em Reserva",
+    "icon": "",
+    "description": "Ajusta o esforço pela estimativa de repetições que ainda seriam possíveis.",
+    "category": "musculacao",
+    "sets": [
+      "[work]8-12 reps · terminar com RIR 2 · descanso 120 s",
+      "[work]8-12 reps · terminar com RIR 2 · descanso 120 s",
+      "[work]8-12 reps · terminar com RIR 2"
+    ],
+    "goals": [
+      "Hipertrofia",
+      "Força"
+    ],
+    "level": "Intermediário",
+    "guidance": "RIR 2 significa terminar a série estimando que restariam duas repetições com técnica. A estimativa melhora com experiência.",
+    "aliases": [
+      "rir",
+      "rpe",
+      "repetições em reserva",
+      "autorregulação"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "potencia_tecnica",
+    "name": "Potência com Controle Técnico",
+    "icon": "",
+    "description": "Prioriza repetições rápidas na fase de produção de força e recuperação suficiente.",
+    "category": "musculacao",
+    "sets": [
+      "[work]3-5 reps com intenção de velocidade na fase concêntrica · descanso 180 s",
+      "[work]3-5 reps com intenção de velocidade na fase concêntrica · descanso 180 s",
+      "[work]3-5 reps com intenção de velocidade na fase concêntrica"
+    ],
+    "goals": [
+      "Potência",
+      "Aprendizado técnico"
+    ],
+    "level": "Intermediário",
+    "guidance": "Use um exercício adequado ao treino de potência. Ajuste a carga e encerre a série quando a velocidade ou a técnica se deteriorar.",
+    "aliases": [
+      "potência",
+      "explosivo",
+      "velocidade"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "continuo_moderado",
+    "name": "Contínuo Moderado",
+    "icon": "",
+    "description": "Mantém ritmo estável e esforço moderado ao longo do bloco principal.",
+    "category": "cardio",
+    "sets": [
+      "[warmup]5 min em ritmo leve, aumentando gradualmente",
+      "[work]20 min em ritmo moderado e estável, conseguindo conversar",
+      "[warmup]3 min em ritmo leve para desacelerar"
+    ],
+    "goals": [
+      "Condicionamento",
+      "Emagrecimento"
+    ],
+    "level": "Iniciante",
+    "guidance": "Use o teste da fala como referência prática: conversar deve continuar possível. Ajuste a duração à experiência do aluno.",
+    "aliases": [
+      "mict",
+      "moderado",
+      "aeróbico contínuo"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "intervalado_moderado",
+    "name": "Intervalado Moderado",
+    "icon": "",
+    "description": "Alterna trechos moderados com recuperação leve.",
+    "category": "cardio",
+    "sets": [
+      "[warmup]5 min em ritmo leve",
+      "[work]6 ciclos: 1 min moderado + 2 min leve",
+      "[warmup]3 min em ritmo leve"
+    ],
+    "goals": [
+      "Condicionamento",
+      "Emagrecimento"
+    ],
+    "level": "Iniciante",
+    "guidance": "Ajuste os tempos de esforço e recuperação para repetir o ritmo com controle. Não exige tiros máximos.",
+    "aliases": [
+      "intervalos",
+      "intervalado iniciante",
+      "cardio intervalado"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "caminhada_corrida",
+    "name": "Caminhada + Corrida",
+    "icon": "",
+    "description": "Intercala caminhada com períodos curtos de corrida confortável.",
+    "category": "cardio",
+    "sets": [
+      "[warmup]5 min de caminhada confortável",
+      "[work]6 ciclos: 1 min de corrida confortável + 2 min de caminhada",
+      "[warmup]3 min de caminhada leve"
+    ],
+    "goals": [
+      "Condicionamento",
+      "Emagrecimento"
+    ],
+    "level": "Iniciante",
+    "guidance": "Use apenas para atividades de caminhada/corrida. Ajuste o tempo de corrida e mantenha as transições confortáveis.",
+    "aliases": [
+      "walk run",
+      "iniciação corrida",
+      "correr caminhar"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": [
+      "esteira",
+      "caminhada",
+      "corrida",
+      "treadmill",
+      "walk",
+      "walking",
+      "run",
+      "running",
+      "jogging"
+    ]
+  },
+  {
+    "id": "intervalado_longo",
+    "name": "Intervalos Longos",
+    "icon": "",
+    "description": "Alterna blocos mais longos de esforço com recuperação ativa.",
+    "category": "cardio",
+    "sets": [
+      "[warmup]5 min de ritmo progressivo",
+      "[work]3 ciclos: 3 min de ritmo forte controlado + 3 min de recuperação leve",
+      "[warmup]5 min de ritmo leve"
+    ],
+    "goals": [
+      "Condicionamento"
+    ],
+    "level": "Intermediário",
+    "guidance": "Escolha um ritmo forte que possa ser sustentado por todo o bloco. Ajuste a recuperação antes de aumentar as repetições.",
+    "aliases": [
+      "intervalado extensivo",
+      "intervalos longos",
+      "capacidade aeróbica"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "alongamento_estatico",
+    "name": "Alongamento Estático",
+    "icon": "",
+    "description": "Mantém uma posição de alongamento durante um intervalo definido.",
+    "category": "mobilidade",
+    "sets": [
+      "[work]20-30 s em posição confortável por lado · intervalo 20 s",
+      "[work]20-30 s em posição confortável por lado"
+    ],
+    "goals": [
+      "Flexibilidade",
+      "Mobilidade"
+    ],
+    "level": "Iniciante",
+    "guidance": "Use amplitude confortável, sem forçar dor. Em exercícios unilaterais, registre o tempo para cada lado.",
+    "aliases": [
+      "estático",
+      "flexibilidade",
+      "sustentação"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "mobilidade_dinamica",
+    "name": "Mobilidade Dinâmica",
+    "icon": "",
+    "description": "Repete movimentos controlados para explorar a amplitude disponível.",
+    "category": "mobilidade",
+    "sets": [
+      "[work]8 movimentos lentos por lado dentro de amplitude confortável · intervalo 20 s",
+      "[work]8 movimentos lentos por lado dentro de amplitude confortável"
+    ],
+    "goals": [
+      "Mobilidade",
+      "Aprendizado técnico"
+    ],
+    "level": "Iniciante",
+    "guidance": "A amplitude deve permitir controle e respiração natural. Ajuste o exercício e evite balanços que ultrapassem o controle ativo.",
+    "aliases": [
+      "dinâmico",
+      "mobilidade articular",
+      "aquecimento dinâmico"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "mobilidade_ativa",
+    "name": "Mobilidade Ativa com Pausa",
+    "icon": "",
+    "description": "Combina movimento ativo e uma breve pausa na amplitude controlada.",
+    "category": "mobilidade",
+    "sets": [
+      "[work]6 movimentos por lado · pausa de 2 s na amplitude controlada · intervalo 30 s",
+      "[work]6 movimentos por lado · pausa de 2 s na amplitude controlada"
+    ],
+    "goals": [
+      "Mobilidade",
+      "Aprendizado técnico"
+    ],
+    "level": "Intermediário",
+    "guidance": "Defina a posição de pausa nas observações. Use a amplitude que o aluno consegue sustentar ativamente.",
+    "aliases": [
+      "amplitude ativa",
+      "controle articular"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": true,
+    "exerciseKeywords": []
+  },
+  {
+    "id": "alongamento_contrai_relaxa",
+    "name": "Alongamento Contrai–Relaxa",
+    "icon": "",
+    "description": "Alterna uma contração leve e uma fase de relaxamento na posição de alongamento.",
+    "category": "mobilidade",
+    "sets": [
+      "[work]Contrair levemente por 5 s → relaxar → alongar de forma confortável por 20 s",
+      "[work]Repetir a sequência uma vez por lado"
+    ],
+    "goals": [
+      "Flexibilidade"
+    ],
+    "level": "Intermediário",
+    "guidance": "Planeje a posição e a execução com orientação. A contração deve ser leve e o ganho de amplitude confortável, sem forçar.",
+    "aliases": [
+      "pnf",
+      "fnp",
+      "contrair relaxar",
+      "facilitação neuromuscular"
+    ],
+    "requiresCompanionExercises": false,
+    "requiresPosition": false,
+    "exerciseKeywords": []
+  }
+]
